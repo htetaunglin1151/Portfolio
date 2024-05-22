@@ -12,7 +12,7 @@ header {
 }
 
 section {
-    padding: 50px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -95,7 +95,9 @@ section h2 {
 
 footer {
     background-color: #333;
-    color: #fff;
-    padding: 0px;
-    text-align: center;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        flex-shrink: 0; /* Prevents the footer from shrinking */
 }
